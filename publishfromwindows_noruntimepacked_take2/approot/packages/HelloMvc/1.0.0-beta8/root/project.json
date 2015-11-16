@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0-beta8",
+  "webroot": "../../../../../wwwroot",
+  "exclude": [
+    "wwwroot"
+  ],
+  "packExclude": [
+    "**.kproj",
+    "**.user",
+    "**.vspscc"
+  ],
+  "dependencies": {
+    "HelloMvc": "1.0.0-beta8"
+  },
+  "commands": {
+    "web": "Microsoft.AspNet.Hosting --server Microsoft.AspNet.Server.WebListener --server.urls http://localhost:5001",
+    "kestrel": "Microsoft.AspNet.Hosting --server Microsoft.AspNet.Server.Kestrel --server.urls http://*:5004"
+  },
+  "frameworks": {
+    "dnx451": {},
+    "dnxcore50": {}
+  },
+  "entryPoint": "HelloMvc",
+  "loadable": false
+}
