@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>HelloMvc</id>
+    <version>1.0.0-beta8</version>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <authors>HelloMvc</authors>
+    <owners>HelloMvc</owners>
+    <description>HelloMvc</description>
+    <dependencies>
+      <group targetFramework="DNXCore5.0">
+        <dependency id="Microsoft.AspNet.Server.Kestrel" version="1.0.0-beta8" />
+        <dependency id="Microsoft.AspNet.Diagnostics" version="1.0.0-beta8" />
+        <dependency id="Microsoft.AspNet.Mvc" version="6.0.0-beta8" />
+        <dependency id="Microsoft.AspNet.Server.WebListener" version="1.0.0-beta8" />
+        <dependency id="Microsoft.Framework.Logging.Console" version="1.0.0-beta8" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
